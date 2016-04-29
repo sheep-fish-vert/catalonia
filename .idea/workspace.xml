@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2a23a0d-2fb2-4f94-9cc5-d105d3b1ecd4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/develop/develop_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/develop/develop_2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/develop/develop_4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/develop/develop_5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/plagins/device.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/plagins/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/plagins/jquery.formstyler.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/plagins/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/plagins/maskInput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/plagins/slick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/validate_script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/develop/develop_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/develop/develop_2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/develop/develop_4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/develop/develop_5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plagins/device.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plagins/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plagins/jquery.formstyler.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plagins/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plagins/maskInput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plagins/slick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/validate_script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/newPage.css" afterPath="$PROJECT_DIR$/build/css/newPage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/basic_scripts.js" afterPath="$PROJECT_DIR$/build/js/basic_scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/basic_scripts.js" afterPath="$PROJECT_DIR$/src/js/basic_scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/head.html" afterPath="$PROJECT_DIR$/src/partials/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/newPage.scss" afterPath="$PROJECT_DIR$/src/sass/newPage.scss" />
     </list>
     <ignored path="cataloniaNew.iws" />
@@ -54,21 +27,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.45657116">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1090">
+                <state relative-caret-position="1680">
                   <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/partials/head.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -91,8 +64,8 @@
           <file leaf-file-name="newPage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sass/newPage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+                <state relative-caret-position="1131">
+                  <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -108,11 +81,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/partials/head.html" />
         <option value="$PROJECT_DIR$/src/partials/header.html" />
         <option value="$PROJECT_DIR$/src/js/basic_scripts.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/newPage.scss" />
+        <option value="$PROJECT_DIR$/src/partials/head.html" />
       </list>
     </option>
   </component>
@@ -320,12 +293,12 @@
       <workItem from="1461907439658" duration="1663000" />
       <workItem from="1461909149853" duration="6811000" />
       <workItem from="1461922927064" duration="1792000" />
-      <workItem from="1461925298523" duration="7609000" />
+      <workItem from="1461925298523" duration="7884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17875000" />
+    <option name="totallyTimeSpent" value="18150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -414,26 +387,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/head.html">
+    <entry file="file://$PROJECT_DIR$/src/sass/newPage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="1131">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1090">
+        <state relative-caret-position="1680">
           <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/newPage.scss">
+    <entry file="file://$PROJECT_DIR$/src/partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
