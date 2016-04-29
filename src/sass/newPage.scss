@@ -1,0 +1,30 @@
+.cfix:after{content: '';display: block;height: 0;font-size: 1px;line-height: 1px;overflow: hidden;clear: both;}
+header.newPage{
+    .logotype{ display: inline-block; vertical-align: top;
+      &:before{    width: 100vw;}
+    }
+    .additional{ background-color: #f00; color: #fff; font-weight:bold; font-size:16px; display: inline-block;    padding: 6px 45px 6px 23px; text-transform: uppercase; margin-top: 10px; margin-left: 86px;}
+}
+.newPage{
+  .topimg{ background-image: url(../images/newPBG.jpg); min-height:440px; width: 100%; background-position: center; background-size:cover; background-repeat: no-repeat;}
+  .content-wrap{
+    .left-column{
+      .menu-newP{
+        &>ul{
+          &>li{ position: relative;
+            &:after,
+            &:before{content:''; display: block; width: 10px; height: 2px; background-color: #828282; left:0; top:5px;}
+            p{color:#828282; font-weight:bold; font-size:18px;}
+            &>ul{
+              &>li{
+                a{color:#828282; font-size:14px;}
+              }
+            }
+          }
+        }
+      }
+
+    }
+    .right-column{ border-top:1px solid #e8e8e8;}
+  }
+}
