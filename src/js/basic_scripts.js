@@ -1,10 +1,10 @@
 function tabsNewPage(){
-    $('.menu-newP>ul>li>p').click(function () {
-        $(this).parent('li').toggleClass('active');
-        if( $(this).parent('li').hasClass('active')){
-            $(this).next().slideDown(300);
+    $('.menu-newP>ul>li').click(function () {
+        $(this).toggleClass('active');
+        if( $(this).hasClass('active')){
+            $(this).find('ul').slideDown(300);
         }else{
-            $(this).next().slideUp(300);
+            $(this).find('ul').slideUp(300);
         }
 
     });

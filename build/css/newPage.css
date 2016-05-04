@@ -57,7 +57,8 @@ header.newPage .additional {
       .newPage .content-wrap .left-column .menu-newP > ul > li {
         position: relative;
         padding-left: 18px;
-        padding-bottom: 11px; }
+        padding-bottom: 11px;
+        cursor: pointer; }
         .newPage .content-wrap .left-column .menu-newP > ul > li:after, .newPage .content-wrap .left-column .menu-newP > ul > li:before {
           content: '';
           display: block;
@@ -94,15 +95,15 @@ header.newPage .additional {
         .newPage .content-wrap .left-column .menu-newP > ul > li p {
           color: #828282;
           font-weight: bold;
-          font-size: 18px;
-          cursor: pointer; }
+          font-size: 18px; }
         .newPage .content-wrap .left-column .menu-newP > ul > li > ul {
           display: none;
           padding: 15px 0 11px 16px; }
           .newPage .content-wrap .left-column .menu-newP > ul > li > ul > li {
             position: relative;
             padding-bottom: 10px;
-            padding-left: 17px; }
+            padding-left: 17px;
+            cursor: pointer; }
             .newPage .content-wrap .left-column .menu-newP > ul > li > ul > li:before {
               content: '';
               display: block;
@@ -134,7 +135,7 @@ header.newPage .additional {
       .newPage .content-wrap .right-column .item .img {
         float: left;
         max-width: 255px;
-        margin: 0 30px 30px 0; }
+        margin: 0 30px 5px 0; }
       .newPage .content-wrap .right-column .item .txt .bttn {
         display: block;
         width: 100%;
@@ -185,7 +186,8 @@ header.newPage .additional {
           -webkit-transition: all 300ms;
           -moz-transition: all 300ms;
           -o-transition: all 300ms;
-          transition: all 300ms; }
+          transition: all 300ms;
+          display: inline-block; }
           .newPage .content-wrap .right-column .lets-find .buttonNew a:hover {
             background-color: #ffc502; }
       .newPage .content-wrap .right-column .lets-find .list-title {
@@ -218,6 +220,8 @@ header.newPage .additional {
             text-decoration: underline; }
             .newPage .content-wrap .right-column .lets-find .list-title li a:hover, .newPage .content-wrap .right-column .lets-find .list-title li a.active {
               color: #eb9623; }
+    .newPage .content-wrap .right-column .item-big .img img {
+      max-width: 100%; }
     .newPage .content-wrap .right-column .item-big .txt {
       padding-bottom: 49px; }
       .newPage .content-wrap .right-column .item-big .txt p {
@@ -240,3 +244,48 @@ header.newPage .additional {
       border-top: 1px solid #e8e8e8;
       display: inline-block;
       padding: 15px; }
+
+@media (max-width: 1210px) {
+  .newPage .content-wrap .left-column {
+    width: 250px; }
+  .newPage .content-wrap .right-column {
+    width: -webkit-calc(100% - 285px);
+    width: -moz-calc(100% - 285px);
+    width: calc(100% - 285px); }
+    .newPage .content-wrap .right-column .lets-find .buttonNew a {
+      display: inline-block;
+      padding: 12px; } }
+
+@media (max-width: 992px) {
+  .newPage .content-wrap .right-column .lets-find .buttonNew a {
+    font-size: 20px; }
+  .newPage .content-wrap .right-column .item .img {
+    float: none;
+    max-width: auto;
+    margin: 0 auto 16px;
+    width: 100%;
+    display: block;
+    text-align: center; }
+    .newPage .content-wrap .right-column .item .img img {
+      max-width: 100%; } }
+
+@media (max-width: 768px) {
+  header.newPage .additional {
+    display: none; }
+  .newPage .topimg {
+    min-height: 200px; }
+  .newPage .content-wrap {
+    padding: 37px 20px 148px; }
+    .newPage .content-wrap .left-column {
+      width: 100%;
+      float: none; }
+    .newPage .content-wrap .right-column {
+      width: 100%;
+      float: none; }
+      .newPage .content-wrap .right-column .item-big .txt p:first-child,
+      .newPage .content-wrap .right-column .item .txt p:first-child {
+        text-align: center; } }
+
+@media (max-width: 480px) {
+  .newPage .content-wrap .right-column .lets-find .buttonNew a {
+    font-size: 13px; } }
